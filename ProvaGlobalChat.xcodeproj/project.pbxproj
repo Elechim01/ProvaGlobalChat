@@ -3,23 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59EEDBD5C3774DAA7A9077C9 /* Pods_ProvaGlobalChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078ED3297FBB468E9BFE3256 /* Pods_ProvaGlobalChat.framework */; };
 		D190180E259DDEC500A34979 /* ProvaGlobalChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D190180D259DDEC500A34979 /* ProvaGlobalChatApp.swift */; };
 		D1901810259DDEC500A34979 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D190180F259DDEC500A34979 /* ContentView.swift */; };
 		D1901812259DDEC700A34979 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1901811259DDEC700A34979 /* Assets.xcassets */; };
 		D1901815259DDEC700A34979 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1901814259DDEC700A34979 /* Preview Assets.xcassets */; };
+		D190181E259DDF5200A34979 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D190181D259DDF5200A34979 /* GoogleService-Info.plist */; };
+		D1901836259DE0B000A34979 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1901835259DE0B000A34979 /* Home.swift */; };
+		D1901839259DE19000A34979 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1901838259DE19000A34979 /* HomeModel.swift */; };
+		D190183C259DE1D100A34979 /* MsgModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D190183B259DE1D100A34979 /* MsgModel.swift */; };
+		D1901850259DEA5D00A34979 /* ChatViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D190184F259DEA5D00A34979 /* ChatViewRow.swift */; };
+		D1901853259DEBDF00A34979 /* NickName.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1901852259DEBDF00A34979 /* NickName.swift */; };
+		D1901856259DEF3A00A34979 /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1901855259DEF3A00A34979 /* ChatBubble.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		078ED3297FBB468E9BFE3256 /* Pods_ProvaGlobalChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProvaGlobalChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		316D8E5B9FFA1D4192A7AB27 /* Pods-ProvaGlobalChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProvaGlobalChat.release.xcconfig"; path = "Target Support Files/Pods-ProvaGlobalChat/Pods-ProvaGlobalChat.release.xcconfig"; sourceTree = "<group>"; };
+		9020C94602BF9C57CF1994FB /* Pods-ProvaGlobalChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProvaGlobalChat.debug.xcconfig"; path = "Target Support Files/Pods-ProvaGlobalChat/Pods-ProvaGlobalChat.debug.xcconfig"; sourceTree = "<group>"; };
 		D190180A259DDEC500A34979 /* ProvaGlobalChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProvaGlobalChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D190180D259DDEC500A34979 /* ProvaGlobalChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvaGlobalChatApp.swift; sourceTree = "<group>"; };
 		D190180F259DDEC500A34979 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D1901811259DDEC700A34979 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1901814259DDEC700A34979 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D1901816259DDEC700A34979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D190181D259DDF5200A34979 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D1901835259DE0B000A34979 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		D1901838259DE19000A34979 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		D190183B259DE1D100A34979 /* MsgModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MsgModel.swift; sourceTree = "<group>"; };
+		D190184F259DEA5D00A34979 /* ChatViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewRow.swift; sourceTree = "<group>"; };
+		D1901852259DEBDF00A34979 /* NickName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NickName.swift; sourceTree = "<group>"; };
+		D1901855259DEF3A00A34979 /* ChatBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59EEDBD5C3774DAA7A9077C9 /* Pods_ProvaGlobalChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62F969B32131999B9219DF3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9020C94602BF9C57CF1994FB /* Pods-ProvaGlobalChat.debug.xcconfig */,
+				316D8E5B9FFA1D4192A7AB27 /* Pods-ProvaGlobalChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C333032335A04BDD464006DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				078ED3297FBB468E9BFE3256 /* Pods_ProvaGlobalChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D1901801259DDEC500A34979 = {
 			isa = PBXGroup;
 			children = (
 				D190180C259DDEC500A34979 /* ProvaGlobalChat */,
 				D190180B259DDEC500A34979 /* Products */,
+				62F969B32131999B9219DF3E /* Pods */,
+				C333032335A04BDD464006DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,9 +90,12 @@
 		D190180C259DDEC500A34979 /* ProvaGlobalChat */ = {
 			isa = PBXGroup;
 			children = (
+				D1901834259DE09A00A34979 /* Model */,
+				D1901831259DE08E00A34979 /* View */,
 				D190180D259DDEC500A34979 /* ProvaGlobalChatApp.swift */,
 				D190180F259DDEC500A34979 /* ContentView.swift */,
 				D1901811259DDEC700A34979 /* Assets.xcassets */,
+				D190181D259DDF5200A34979 /* GoogleService-Info.plist */,
 				D1901816259DDEC700A34979 /* Info.plist */,
 				D1901813259DDEC700A34979 /* Preview Content */,
 			);
@@ -69,6 +110,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D1901831259DE08E00A34979 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D1901835259DE0B000A34979 /* Home.swift */,
+				D190184F259DEA5D00A34979 /* ChatViewRow.swift */,
+				D1901852259DEBDF00A34979 /* NickName.swift */,
+				D1901855259DEF3A00A34979 /* ChatBubble.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D1901834259DE09A00A34979 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D1901838259DE19000A34979 /* HomeModel.swift */,
+				D190183B259DE1D100A34979 /* MsgModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1901819259DDEC700A34979 /* Build configuration list for PBXNativeTarget "ProvaGlobalChat" */;
 			buildPhases = (
+				06950A5176D7B772C0E2AD33 /* [CP] Check Pods Manifest.lock */,
 				D1901806259DDEC500A34979 /* Sources */,
 				D1901807259DDEC500A34979 /* Frameworks */,
 				D1901808259DDEC500A34979 /* Resources */,
+				B59CE9F60963E494D52B92CA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,19 +190,68 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1901815259DDEC700A34979 /* Preview Assets.xcassets in Resources */,
+				D190181E259DDF5200A34979 /* GoogleService-Info.plist in Resources */,
 				D1901812259DDEC700A34979 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06950A5176D7B772C0E2AD33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProvaGlobalChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B59CE9F60963E494D52B92CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProvaGlobalChat/Pods-ProvaGlobalChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProvaGlobalChat/Pods-ProvaGlobalChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProvaGlobalChat/Pods-ProvaGlobalChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D1901806259DDEC500A34979 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1901853259DEBDF00A34979 /* NickName.swift in Sources */,
+				D1901839259DE19000A34979 /* HomeModel.swift in Sources */,
+				D190183C259DE1D100A34979 /* MsgModel.swift in Sources */,
 				D1901810259DDEC500A34979 /* ContentView.swift in Sources */,
+				D1901836259DE0B000A34979 /* Home.swift in Sources */,
 				D190180E259DDEC500A34979 /* ProvaGlobalChatApp.swift in Sources */,
+				D1901850259DEA5D00A34979 /* ChatViewRow.swift in Sources */,
+				D1901856259DEF3A00A34979 /* ChatBubble.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,11 +376,13 @@
 		};
 		D190181A259DDEC700A34979 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9020C94602BF9C57CF1994FB /* Pods-ProvaGlobalChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ProvaGlobalChat/Preview Content\"";
+				DEVELOPMENT_TEAM = G7DSPSWXXC;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ProvaGlobalChat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -285,11 +399,13 @@
 		};
 		D190181B259DDEC700A34979 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 316D8E5B9FFA1D4192A7AB27 /* Pods-ProvaGlobalChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ProvaGlobalChat/Preview Content\"";
+				DEVELOPMENT_TEAM = G7DSPSWXXC;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ProvaGlobalChat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
